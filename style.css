@@ -1,4 +1,4 @@
-/* reset standar */
+
 * {
     margin: 0;
     padding: 0;
@@ -11,12 +11,12 @@ body {
     font-family: 'Segoe UI', sans-serif;
 }
 
-/* sembunyiin input penanda halaman/tab */
+
 #login-page-toggle, #tab-signin, #tab-signup {
     display: none;
 }
 
-/* --- bagian navbar --- */
+
 nav {
     background: #4a3525;
     padding: 18px 6%;
@@ -52,7 +52,7 @@ nav .logo {
     color: #fff;
 }
 
-/* garis bawah pas menu di-hover */
+
 .nav-links a::after {
     content: '';
     position: absolute;
@@ -83,7 +83,7 @@ nav .logo {
     color: #4a3525;
 }
 
-/* --- bagian hero banner --- */
+
 .hero {
     background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.6)), url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?q=80&w=1000') no-repeat center;
     background-size: cover;
@@ -101,7 +101,7 @@ nav .logo {
     margin-bottom: 10px;
 }
 
-/* --- konten list menu --- */
+
 .menu-container {
     max-width: 960px;
     margin: 40px auto;
@@ -162,7 +162,7 @@ footer {
     font-size: 14px;
 }
 
-/* --- halaman khusus login (overlay penuh) --- */
+
 .full-login-screen {
     position: fixed;
     top: 0;
@@ -175,7 +175,7 @@ footer {
     justify-content: center;
     align-items: center;
     
-    /* sembunyiin pas awal dibuka */
+    
     opacity: 0;
     pointer-events: none;
     transform: scale(1.05);
@@ -278,7 +278,7 @@ footer {
     cursor: pointer;
 }
 
-/* --- core logik toggles --- */
+
 #login-page-toggle:checked ~ .full-login-screen {
     opacity: 1;
     pointer-events: auto;
